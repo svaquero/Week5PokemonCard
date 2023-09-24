@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .outside {
+    width: 333px;
+    height: 493px;
+    border: 15px solid #F7E72A;
+    background-color: #F7E72A;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .pokemonbox {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: absolute;
+  }
+  
+  .inside {
+    width: 333px;
+    height: 493px;
+    background-color: lightgrey;
+    border: 2px solid grey;
+    border-radius: 5px;
+    position: absolute;
+  }
+  
+  .name {
+    font-size: 18px;
+    margin: 10px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  
+  .pokemonbox {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: absolute;
+  }
+  
+  .description {
+    padding: 2px 0px 0px 0px;
+    margin: 0px 0px 5px 0px;
+    background: white;
+    border: 2px solid #AAAAAA;
+    border-radius: 5px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .typesign {
+    font-size: 20px;
+    text-align: center;
+    width: 5%;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .hp {
+    font-size: 10px;
+    width: 17%;
+    position: absolute;
+    right: 30px;
+    top: 24px;
+  }
+  
+  .abilities {
+    position: absolute;
+    width: 5%;
+    top: 340px;
+    left: 10px;
+    display: flex;
+  }
+  
+  .abilities2 {
+    position: absolute;
+    width: 5%;
+    top: 380px;
+    left: 10px;
+    display: flex;
+  }
+  
+  .names,
+  .names2 {
+    position: absolute;
+    top: 325px;
+    left: 145px;
+  }
+  
+  .names2 {
+    top: 365px;
+  }
+  
+  .numbers1 {
+    position: absolute;
+    top: 325px;
+    right: 10px;
+  }
+  
+  .numbers2 {
+    position: absolute;
+    top: 365px;
+    right: 10px;
+  }
+  
+  img {
+    padding: 2px;
+  }
+  
+  .bottomInfo {
+    position: absolute;
+    padding: 1px 0px 0px 0px;
+    margin: 0px 0px 3px 0px;
+    background: white;
+    border: 2px solid #AAAAAA;
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    top: 435px;
+    left: 10px;
+  }
+  
+  .numbers3 {
+    position: absolute;
+    right: 45px;
+    top: 15px;
+    font-size: 20px;
+    width: 8%;
+  }
